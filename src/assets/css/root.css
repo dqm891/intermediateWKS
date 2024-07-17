@@ -374,7 +374,6 @@
     left: auto;
     right: 0;
     opacity: 0;
-    visibility: hidden;
     transform: scaleX(0);
     background-color: #fff;
     height: 100vh;
@@ -480,7 +479,6 @@
   }
   #cs-navigation.cs-active .cs-ul-wrapper {
     opacity: 1;
-    visibility: visible;
     transform: scaleX(1);
     transition-delay: 0.2s;
   }
@@ -540,7 +538,7 @@
     border: none;
     background-color: transparent;
     font-family: inherit;
-    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-size: inherit;
     cursor: pointer;
     appearance: none;
   }
