@@ -302,7 +302,7 @@
       z-index: 1000;
 
       img, svg {
-          //center image inside button
+          /* //center image inside button */
           position: absolute;
           top: 50%;
           left: 50%;
@@ -315,15 +315,15 @@
 
   .cs-moon {
       z-index: 2;
-      // Transition properties
-      transition: transform .3s, opacity .3s;
+      /* // Transition properties
+      transition: transform .3s, opacity .3s; */
 
-      // fill: yellow; --> uncomment to change the color of the moon if needed
+      /* // fill: yellow; --> uncomment to change the color of the moon if needed */
   }
 
   .cs-sun {
       z-index: 1;
-      // Transition property
+      /* // Transition property */
       transform: translate(-50%, 100%);
       opacity: 0;
       transition: transform .3s, opacity .3s;
